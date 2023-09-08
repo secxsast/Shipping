@@ -1,4 +1,4 @@
-name: main
+name: GSL_workflow_01
 on:
  push:
   branches:
