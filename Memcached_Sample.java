@@ -2,7 +2,7 @@ package com.amazon.elasticache;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
-
+//Comentario prueba GSL 01
 // Import the &AWS;-provided library with Auto Discovery support 
 import net.spy.memcached.MemcachedClient;  
 
