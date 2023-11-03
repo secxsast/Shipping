@@ -16,6 +16,6 @@ jobs:
        project_name: ${{github.repository}}
        cx_tenant: nfr_trustdimension
        base_uri: https://ast.checkmarx.net
-       cx_client_id: ${{ secrets.GSL_GITHUB_IDCLIENT}}
-       cx_client_secret: ${{ secrets.GSL_GitHub_SECRET}}
+       cx_client_id: ${{ secrets.CLIENT_ID}}
+       cx_client_secret: ${{ secrets.SECRET}}
        branch: ${{github.ref}}
