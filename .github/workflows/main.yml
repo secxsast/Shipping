@@ -1,4 +1,4 @@
-name: GSL_workflow_01a
+name: GSL_workflow
 on:
  push:
   branches:
