@@ -34,7 +34,7 @@ public class WordCountApplication {
            .groupBy((key, word) -> word)
            .count(Materialized.<String, Long, KeyValueStore<Bytes, byte[]>>as("counts-store"));
        wordCounts.toStream().to("MSK_2", Produced.with(Serdes.String(), Serdes.Long()));
-
+       //CxFlow
        KafkaStreams streams = new KafkaStreams(builder.build(), props);
        streams.start();
    }
